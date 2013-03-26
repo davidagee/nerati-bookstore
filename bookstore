@@ -1,0 +1,6 @@
+#!/bin/bash          
+cd api
+python api.py &
+cd ../static
+python bookstore.py &
+

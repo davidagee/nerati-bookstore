@@ -1,0 +1,41 @@
+// Dimensions
+$column-gutter: 1.875em;
+$total-columns: 12;
+
+// Global Foundation Settings
+@import "compass";
+@import "settings";
+// Theme Settings
+$global-radius: 6px;
+
+
+@import "foundation";
+@import "font-awesome";
+@import "_nerati";
+// GLOBALS
+
+button[class*="icon-"] {
+	padding-left:2.5em !important;
+	position:relative;
+	display:inline-block;
+	text-shadow:0 -1px 1px rgba(0,0,0,.5);
+	&.secondary {
+		text-shadow:0 -1px 1px rgba(255,255,255,.5);
+	}
+	&:before {
+		position:absolute;
+		left:.5em;
+		font-size:1.5em;
+		vertical-align: middle;
+		display: inline-block;
+		top:.25em;
+	};
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,424 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"lorem",
+				"lorem	lorem - One sentence"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"se",
+				"settingsMenu"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"inln",
+				"inline-block"
+			],
+			[
+				"bottom",
+				"text-bottom"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"portfolio",
+				"portfolio-hue"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"f",
+				"fixed"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"border-rad",
+				"border-top-left-radius"
+			],
+			[
+				"pad",
+				"padding-trailer"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"padding",
+				"padding-leader"
+			],
+			[
+				"padding-",
+				"padding-trailer"
+			],
+			[
+				"margin",
+				"margin-trailer"
+			],
+			[
+				"sideb",
+				"sidebar-text-color"
+			],
+			[
+				"content-c",
+				"content-accent-color-light"
+			],
+			[
+				"cont",
+				"content-accent-color"
+			],
+			[
+				"col-",
+				"col-wide-width"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pla",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: lorem - One sentence"
+			],
+			[
+				"place",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 197.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/david/Current Projects/ESG/ecm-app/index.html",
+		"/Users/david/Current Projects/ESG/ecm-app/stepped-form.kit",
+		"/Users/david/Current Projects/ESG/ecm-app/snippets/sample-subnav.html",
+		"/Users/david/Current Projects/ESG/ecm-app/javascripts/esg/ecm.uisteppedform.js",
+		"/Users/david/Current Projects/ESG/ecm-app/sass/_settings.scss",
+		"/Users/david/Current Projects/ESG/ecm-app/sass/_font-awesome.scss",
+		"/Users/david/Current Projects/ESG/ecm-app/index.kit",
+		"/Users/david/Current Projects/ESG/ecm-app/sass/_ecm_ui_chrome.scss",
+		"/Users/david/Current Projects/ESG/ecm-app/javascripts/esg/ecm.uichromebehaviors.js",
+		"/Users/david/Current Projects/ESG/ecm-app/snippets/cm-nav.kit",
+		"/Users/david/Current Projects/ESG/ecm-app/snippets/admin-nav.kit",
+		"/Users/david/Current Projects/ESG/ecm-app/snippets/org-nav.kit",
+		"/Users/david/Current Projects/ESG/ecm-app/javascripts/prototype/financesOverTime.js",
+		"/Users/david/Current Projects/ESG/ecm-app/javascripts/prototype/xcharts.min.css",
+		"/Users/david/Current Projects/ESG/ecm-app/snippets/prototype/finances-chart.html",
+		"/Users/david/Current Projects/ESG/ecm-app/dashboard.kit",
+		"/Users/david/Current Projects/ESG/ecm-app/javascripts/foundation/foundation.tooltips.js",
+		"/Users/david/Current Projects/ESG/ecm-app/javascripts/foundation/foundation.js",
+		"/Users/david/Current Projects/ESG/ecm-app/javascripts/foundation/foundation.topbar.js",
+		"/Users/david/Current Projects/ESG/ecm-app/sass/_ecm_fonts.scss",
+		"/Users/david/Current Projects/ESG/ecm-app/snippets/cm-nav.html",
+		"/Users/david/Current Projects/ESG/ecm-app/cm-nav.kit",
+		"/Users/david/Current Projects/ESG/ecm-app/config.rb",
+		"/Users/david/Current Projects/ESG/ecm-app/stylesheets/normalize.css",
+		"/Users/david/Current Projects/ESG/ecm-app/snippets/dropdown-family-links.html",
+		"/Users/david/Current Projects/ESG/ecm-app/.rvmrc",
+		"/Users/david/Current Projects/ESG/ecm-app/Gemfile",
+		"/Users/david/Desktop/QA Managers - > are told which tests were changed",
+		"/Users/david/Current Projects/elementnode/source/stylesheets/ie.css",
+		"/Users/david/Current Projects/elementnode/source/index.html",
+		"/Users/david/Current Projects/elementnode/source/javascripts/google_form.js",
+		"/Users/david/Current Projects/elementnode/sass/base/_theme.scss",
+		"/Users/david/Current Projects/elementnode/sass/custom/_font-awesome.scss",
+		"/Users/david/Current Projects/elementnode/sass/partials/_header.scss",
+		"/Users/david/Current Projects/elementnode/sass/partials/_navigation.scss",
+		"/Users/david/Current Projects/elementnode/sass/base/_layout.scss",
+		"/Users/david/Current Projects/elementnode/source/work/cxp-web-app.markdown",
+		"/Users/david/Current Projects/elementnode/source/work/esg-client-portal.markdown",
+		"/Users/david/Current Projects/elementnode/source/work/cxp-total-cost.markdown",
+		"/Users/david/Current Projects/elementnode/sass/partials/_blog.scss",
+		"/Users/david/Current Projects/elementnode/sass/partials/_portfolio.scss",
+		"/Users/david/Current Projects/elementnode/source/work/index.markdown",
+		"/Users/david/Current Projects/elementnode/source/stylesheets/foundation.css",
+		"/Users/david/Current Projects/elementnode/sass/partials/_footer.scss",
+		"/Users/david/Current Projects/elementnode/source/_includes/custom/after_footer.html",
+		"/Users/david/Current Projects/elementnode/source/work/freemarkets-es.markdown",
+		"/Users/david/Current Projects/elementnode/source/work/cxp-spend-analysis.markdown",
+		"/Users/david/Current Projects/elementnode/source/about/index.markdown",
+		"/Users/david/Current Projects/elementnode/source/work/freemarkets-quick-projects.markdown",
+		"/Users/david/Current Projects/elementnode/source/_includes/portfolio/company_title.html",
+		"/Users/david/Current Projects/elementnode/source/work/esg-web-app.markdown",
+		"/Users/david/Current Projects/elementnode/source/work/esg-case-management.markdown",
+		"/Users/david/Current Projects/elementnode/sass/base/_typography.scss",
+		"/Users/david/Current Projects/elementnode/source/_includes/custom/footer.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/custom/navigation.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/navigation.html",
+		"/Users/david/Current Projects/elementnode/source/_layouts/default.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/footer.html",
+		"/Users/david/Current Projects/elementnode/source/index-dev.html",
+		"/Users/david/Current Projects/elementnode/source/contact/index.markdown",
+		"/Users/david/Current Projects/elementnode/_config.yml",
+		"/Users/david/Current Projects/elementnode/sass/custom/_icons.scss",
+		"/Users/david/Current Projects/elementnode/source/_includes/modals/portfolio.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/asides/pdf_portfolio.html",
+		"/Users/david/Current Projects/elementnode/source/_layouts/portfolio.html",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/david/Current Projects/elementnode/source/_includes/custom/header.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/asides/availability.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/asides/recent_posts.html",
+		"/Users/david/Current Projects/elementnode/sass/partials/sidebar/_base.scss",
+		"/Users/david/Current Projects/elementnode/public/work/cxp-web-app.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/asides/resume.html",
+		"/Users/david/Current Projects/elementnode/source/_layouts/page.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/article.html",
+		"/Users/david/Current Projects/elementnode/source/javascripts/app.js",
+		"/Users/david/Current Projects/elementnode/source/javascripts/foundation.min.js",
+		"/Users/david/Current Projects/elementnode/source/_includes/head.html",
+		"/Users/david/Current Projects/elementnode/source/_layouts/post.html",
+		"/Users/david/Current Projects/elementnode/plugins/portfolio.rb",
+		"/Users/david/Development/jekyll-projectlist/plugins/projectlist.rb",
+		"/Users/david/Current Projects/elementnode/source/blog/index.html",
+		"/Users/david/Current Projects/elementnode/sass/_partials.scss",
+		"/Users/david/Current Projects/elementnode/source/_projects/ecm-redesign.markdown",
+		"/Users/david/Current Projects/elementnode/source/_projects/ecm-mobile.markdown",
+		"/Users/david/Current Projects/elementnode/source/_projects/ecm-portal.markdown",
+		"/Users/david/Current Projects/elementnode/source/work/index.html",
+		"/Users/david/Current Projects/elementnode/source/_projects/another-project.markdown",
+		"/Users/david/Current Projects/elementnode/Rakefile",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/david/Current Projects/elementnode/source/_projects/sample-project.yml",
+		"/Users/david/Current Projects/elementnode/source/portfolio/index.html",
+		"/Users/david/Current Projects/elementnode/source/portfolio/index.markdown",
+		"/Users/david/Current Projects/elementnode/source/portfolio/index2.markdown",
+		"/Users/david/Current Projects/elementnode/source/_projects/2011-08-30-project-1.markdown",
+		"/Users/david/Current Projects/elementnode/source/_projects/cxp/index.markdown",
+		"/Users/david/Current Projects/elementnode/source/_projects/2011-08-31-jekyll-projectlist.markdown",
+		"/Users/david/Development/jekyll-plugins/README.md",
+		"/Users/david/Current Projects/elementnode/source/_includes/post/date.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/header.html",
+		"/Users/david/Current Projects/elementnode/source/_posts/2012-11-09-more-posting-for-layout-tests.markdown",
+		"/Users/david/Current Projects/elementnode/source/_includes/custom/head.html",
+		"/Users/david/Current Projects/elementnode/sass/base/_utilities.scss",
+		"/Users/david/Current Projects/elementnode/sass/screen.scss",
+		"/Users/david/Current Projects/elementnode/sass/_base.scss",
+		"/Users/david/Current Projects/elementnode/source/_posts/2012-11-09-another-test-post.markdown",
+		"/Users/david/Current Projects/elementnode/source/_includes/post/author.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/asides/related_posts.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/post/featured_posts.html",
+		"/Users/david/Current Projects/elementnode/plugins/category_generator.rb",
+		"/Users/david/Current Projects/elementnode/plugins/custom_post_filters.rb",
+		"/Users/david/Current Projects/elementnode/plugins/octopress_filters.rb",
+		"/Users/david/Current Projects/elementnode/plugins/post_filters.rb",
+		"/Users/david/Current Projects/elementnode/plugins/popular_post.rb",
+		"/Users/david/Current Projects/elementnode/Gemfile",
+		"/Users/david/Current Projects/elementnode/plugins/blockquote.rb",
+		"/Users/david/Current Projects/elementnode/.themes/classic/source/_layouts/post.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/after_footer.html",
+		"/Users/david/Current Projects/elementnode/.themes/classic/source/_includes/disqus.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/post/disqus_thread.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/asides/twitter.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/asides/popular_posts.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/asides/tag_list.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/asides/category_list.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/post/sharing.html",
+		"/Users/david/Current Projects/elementnode/source/_includes/custom/asides/popular_posts.html",
+		"/Users/david/Current Projects/elementnode/source/_posts/2012-11-09-test-post-1.markdown",
+		"/Users/david/Current Projects/elementnode/source/_posts/2012-11-09-testing-whitespace-in-post-titles.markdown"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/david/Current Projects/elementnode/",
+			"/Users/david/Current Projects/elementnode/sass",
+			"/Users/david/Current Projects/elementnode"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"socia",
+			"portfol-nav",
+			"h4",
+			"pre(",
+			"pad(",
+			"figure",
+			"figu",
+			"sign",
+			"about",
+			"githu",
+			"figure",
+			"box-",
+			"14px",
+			"P + ",
+			"header",
+			"14px",
+			"display:none",
+			"OCTOPRESS_ENV",
+			"index",
+			"OCTOPRESS_ENV",
+			"read_yaml",
+			"debug",
+			"blog-index",
+			"debug",
+			"background",
+			",\n",
+			"leader",
+			"site.recent",
+			"border-right",
+			":$",
+			"javascripts"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"js",
+			"javascripts"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 27.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true
+}

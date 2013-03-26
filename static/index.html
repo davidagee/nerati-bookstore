@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Nerati Bookstore Login Screen</title>
+
+  <link rel="stylesheet" href="stylesheets/normalize.css" />  
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  
+  <script src="javascripts/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+<header class='row'>
+  <div class="large-12 columns"><img src="images/nerati.png" alt="Nerati Logo" class="large-centered"/></div>
+</header>
+
+<div id="login-container" class="container row">
+  <form method="POST" name="login" id="login"> 
+    <div class="row">
+      <fieldset class="large-offset-4 large-4 columns bounded">
+        <label><span>Username:</span><input type="text" name="username" id="username" placeholder="Enter your username"/></label>
+        <label><span>Password:</span><input type="password" name="password" id="password" placeholder="Enter your password"/></label>
+        <button id="loginButton" class="right radius button" value="Sign In">Sign In</button>
+      </fieldset>
+    </div>
+  </form>
+</div>
+
+<div id="books-list" class="bounded container row">
+  <form>
+    <div class="contain-to-grid">
+        <nav class="top-bar">
+
+          <section class="top-bar-section">
+            <!-- Left Nav Section -->
+            <ul class="left">
+              <li class="sort-widget">
+                <span class="sort-label">Sort By:</span>
+                <a id="sortNewestLink">Newest</a>
+                <a id="sortOldestLink">Oldest</a>
+              </li>
+            </ul>
+
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li class="has-form" style="display:none">
+                <form>
+                  <div class="row collapse">
+                    <div class="small-8 columns">
+                      <input type="text">
+                    </div>
+                    <div class="small-4 columns">
+                      <a href="#" class="alert button">Search</a>
+                    </div>
+                  </div>
+                </form>
+              </li>
+              <li class="has-form">
+                <a class="radius button" id="addButton" href="#">Add A New Book</a>
+              </li>
+            </ul>
+          </section>
+        </nav>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+        </tr>
+      </thead>
+      <tbody id="books-list-contents">
+      </tbody>
+    </table>
+  </form>
+</div>
+<div id="book-detail" class="small radius reveal-modal bounded">
+  <a class="close-reveal-modal">&#215;</a>
+  <h3>Edit A Book</h3>
+  <form id="book-detail-form">
+    <input data-model="bookId" name="id" type="hidden"/>
+    <fieldset class="large-offset-3 large-6 columns">
+        <ul>
+          <li><label data-model="author"><span class="field-label">Title:</span><input class="field-input" name="title" value="" placeholder="Enter Book Title"/></label></li>
+          <li><label data-model="title"><span class="field-label">Author:</span><input class="field-input" name="author" value="" placeholder="Enter Book Author"/></label></li>
+        </ul>
+        <button id="updateButton" class="small radius right button">Update This Book</button>
+        <button id="deleteButton" class="small secondary  radius button">Delete This Book</button>
+    </fieldset>
+  </form>
+</div>
+<div id="book-create" class="small radius reveal-modal bounded">
+  <a class="close-reveal-modal">&#215;</a>
+  <h3>Create A Book</h3>
+  <form id="book-create-form" method="POST">
+    <fieldset class="large-offset-3 large-6 columns">
+        <ul>
+          <li><label data-model="author"><span class="field-label">Title:</span><input name="title" class="field-input" value="" placeholder="Enter Book Title"/></label></li>
+          <li><label data-model="title"><span class="field-label">Author:</span><input name="author" class="field-input" value="" placeholder="Enter Book Author"/></label></li>
+        </ul>
+        <button id="createButton" class="small radius right button">Add This Book</button>
+        <button id="cancelButton" class="small secondary  radius button">Cancel</button>
+    </fieldset>
+  </form>
+</div>
+
+  <script src='javascripts/vendor/jquery.js'></script>
+  
+  <script src="javascripts/foundation/foundation.js"></script>
+  <script src="javascripts/foundation/foundation.alerts.js"></script> 
+  <script src="javascripts/foundation/foundation.clearing.js"></script> 
+  <script src="javascripts/foundation/foundation.cookie.js"></script> 
+  <script src="javascripts/foundation/foundation.dropdown.js"></script>
+  <script src="javascripts/foundation/foundation.forms.js"></script>
+  <script src="javascripts/foundation/foundation.joyride.js"></script>
+  <script src="javascripts/foundation/foundation.magellan.js"></script>
+  <script src="javascripts/foundation/foundation.orbit.js"></script>
+  <script src="javascripts/foundation/foundation.placeholder.js"></script>
+  <script src="javascripts/foundation/foundation.reveal.js"></script>
+  <script src="javascripts/foundation/foundation.section.js"></script>
+  <script src="javascripts/foundation/foundation.tooltips.js"></script>
+  <script src="javascripts/foundation/foundation.topbar.js"></script>
+  
+  <script>
+    $(document).foundation();
+
+  </script>
+  <script src='javascripts/app.js'></script>
+</body>
+</html>

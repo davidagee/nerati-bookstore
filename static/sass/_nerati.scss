@@ -1,0 +1,89 @@
+body {
+  background-image: url(../images/bg-tile.png);
+}
+body > header {
+  padding:0 1em;
+  > div {
+    text-align:center;
+    padding:1em;
+  }
+  img {
+    max-height:4em;
+    margin:0 auto;
+  }
+}
+body > div {
+
+  display:none;
+  padding:1em;
+
+  &#login-container,
+  &#book-detail {
+    display:block;
+  }
+}
+fieldset {
+  border-width: 0;
+  padding:0;
+  margin:0;
+  &.bounded {
+    padding:1em;
+    label > span {
+      font-weight:bold;
+      padding-bottom:.25em;
+      display:block;
+    }
+  }
+}
+
+.reveal-modal ul {
+  display:block;
+  li {
+    display:block;
+    margin-bottom:1em;
+    label > span {
+      width:60px;
+      display:inline-block;
+      font-weight:bold;
+    }
+    label > input {
+      width:240px;
+      display:inline-block;
+      padding:5px;
+    }
+  }
+}
+.bounded {
+  border-radius: 6px;
+  background-color:#fff; 
+  box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+tr.new td {
+  background-color:rgba(#f2d9c2,.5);
+  border-bottom:1px #fff solid;
+  font-weight: bold;
+}
+tr.deleted td {
+  background-color:rgba(#ff756e,.5);
+  border-bottom:1px #fff solid;
+  font-weight: bold;  
+}
+
+.top-bar-section ul li.sort-widget {
+  color:#fff;
+  padding-left:1em;
+  background-color:$topbar-bg;
+  span {
+    font-weight: bold;
+    display:inline-block;
+    width:auto;
+  }
+  a {
+    background-color: transparent;
+    display:inline-block;
+    width:auto;
+    cursor:pointer;
+    margin-right:0;
+    &.active { font-weight: bold; background-color:rgba(255,255,255,.5);}
+  }
+}
