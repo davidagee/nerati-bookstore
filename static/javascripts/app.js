@@ -247,7 +247,7 @@
             $row.prependTo(self.settings.$listRepeater);
             $row.fadeIn();
             var to = setTimeout(function() {
-              row.toggleClass(klassName);
+              $row.toggleClass(klassName);
             },3000);
           } else {
             $row.appendTo(self.settings.$listRepeater);
