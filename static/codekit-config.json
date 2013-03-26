@@ -2,26 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8283",
   "files" : {
-    "\/javascripts\/vendor\/custom.modernizr.js" : {
+    "\/javascripts\/foundation\/foundation.magellan.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/vendor\/custom.modernizr.js",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.magellan.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/vendor\/custom.modernizr-ck.js",
-      "fileType" : 64
-    },
-    "\/javascripts\/foundation\/foundation.topbar-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.topbar-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.topbar-ck-ck.js",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.magellan-ck.js",
       "fileType" : 64
     },
     "\/sass\/app.scss" : {
@@ -36,17 +25,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/ie.scss" : {
+    "\/javascripts\/foundation\/foundation.topbar-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/ie.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/ie.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.topbar-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.topbar-ck-ck.js",
+      "fileType" : 64
     },
     "\/sass\/normalize.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -68,6 +56,18 @@
       "inputAbbreviatedPath" : "\/stylesheets\/print.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/sass\/ie.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/ie.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/ie.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -136,23 +136,23 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.joyride-ck.js",
       "fileType" : 64
     },
-    "\/javascripts\/foundation\/foundation.forms.js" : {
+    "\/images\/bg-tile.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.forms.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.forms-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/images\/bg-tile.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/bg-tile.png",
+      "initialSize" : 22084,
+      "fileType" : 8192
     },
-    "\/stylesheets\/app.css" : {
+    "\/stylesheets\/screen.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/app.css",
+      "inputAbbreviatedPath" : "\/stylesheets\/screen.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -167,44 +167,15 @@
       "outputAbbreviatedPath" : "\/javascripts\/vendor\/jquery-ck.js",
       "fileType" : 64
     },
-    "\/config.rb" : {
+    "\/javascripts\/foundation\/foundation.alerts.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
-    },
-    "\/stylesheets\/screen.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/screen.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/images\/bg-tile.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/bg-tile.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/bg-tile.png",
-      "initialSize" : 22084,
-      "fileType" : 8192
-    },
-    "\/javascripts\/vendor\/zepto.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/vendor\/zepto.js",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.alerts.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/vendor\/zepto-ck.js",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.alerts-ck.js",
       "fileType" : 64
     },
     "\/sass\/_settings.scss" : {
@@ -219,6 +190,37 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
+    "\/javascripts\/foundation\/foundation.forms.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.forms.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.forms-ck.js",
+      "fileType" : 64
+    },
+    "\/javascripts\/vendor\/zepto.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/vendor\/zepto.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/vendor\/zepto-ck.js",
+      "fileType" : 64
+    },
     "\/javascripts\/app.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -230,6 +232,15 @@
       "outputAbbreviatedPath" : "\/javascripts\/app-ck.js",
       "fileType" : 64
     },
+    "\/stylesheets\/app.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/app.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/javascripts\/foundation\/foundation.reveal.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -239,17 +250,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.reveal-ck.js",
-      "fileType" : 64
-    },
-    "\/javascripts\/foundation\/foundation.alerts.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.alerts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.alerts-ck.js",
       "fileType" : 64
     },
     "\/javascripts\/vendor\/zepto-ck.js" : {
@@ -263,15 +263,15 @@
       "outputAbbreviatedPath" : "\/javascripts\/vendor\/zepto-ck-ck.js",
       "fileType" : 64
     },
-    "\/javascripts\/foundation\/foundation.clearing-ck.js" : {
+    "\/javascripts\/foundation\/foundation.topbar.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.clearing-ck.js",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.topbar.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.clearing-ck-ck.js",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.topbar-ck.js",
       "fileType" : 64
     },
     "\/javascripts\/foundation\/foundation.js" : {
@@ -285,17 +285,16 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation-ck.js",
       "fileType" : 64
     },
-    "\/sass\/_font-awesome.scss" : {
+    "\/javascripts\/foundation\/foundation.clearing-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_font-awesome.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_font-awesome.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.clearing-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.clearing-ck-ck.js",
+      "fileType" : 64
     },
     "\/stylesheets\/ie.css" : {
       "ignoreWasSetByUser" : 0,
@@ -305,17 +304,6 @@
       "inputAbbreviatedPath" : "\/stylesheets\/ie.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/javascripts\/foundation\/foundation.topbar.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.topbar.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.topbar-ck.js",
-      "fileType" : 64
     },
     "\/javascripts\/foundation\/foundation.orbit.js" : {
       "ignoreWasSetByUser" : 0,
@@ -327,6 +315,18 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.orbit-ck.js",
       "fileType" : 64
+    },
+    "\/sass\/_font-awesome.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_font-awesome.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_font-awesome.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/javascripts\/foundation\/foundation.reveal-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -468,17 +468,6 @@
       "outputAbbreviatedPath" : "\/javascripts\/app-ck-ck.js",
       "fileType" : 64
     },
-    "\/javascripts\/foundation\/foundation-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation-ck-ck.js",
-      "fileType" : 64
-    },
     "\/images\/nerati.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -489,6 +478,17 @@
       "outputAbbreviatedPath" : "\/images\/nerati.png",
       "initialSize" : 37808,
       "fileType" : 8192
+    },
+    "\/javascripts\/foundation\/foundation-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation-ck-ck.js",
+      "fileType" : 64
     },
     "\/javascripts\/foundation\/foundation.placeholder.js" : {
       "ignoreWasSetByUser" : 0,
@@ -513,15 +513,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascripts\/foundation\/foundation.magellan.js" : {
+    "\/javascripts\/vendor\/custom.modernizr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.magellan.js",
+      "inputAbbreviatedPath" : "\/javascripts\/vendor\/custom.modernizr.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/foundation.magellan-ck.js",
+      "outputAbbreviatedPath" : "\/javascripts\/vendor\/custom.modernizr-ck.js",
       "fileType" : 64
     }
   },
